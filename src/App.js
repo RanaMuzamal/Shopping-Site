@@ -1,15 +1,15 @@
-import React from 'react';
-import HomeScreen from './screen/HomeScreen';
-import Nav from './Components/Nav'
-import Cart from './Components/Cart'
+import React from "react";
+import Header from "./components/header";
+import Drawer from "./components/drawer"
+import Products from "./components/Products/Products";
 function App() {
-  return (
-    <div className='App'>
-      <Nav />
-      <Cart />
-      <HomeScreen />
+ return (
+  <div className="App">
+   <Header />
+   <Drawer />
+   <Products />
   </div>
-);
+ );
 }
 
 export default App;

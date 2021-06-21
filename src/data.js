@@ -17,7 +17,7 @@ const products = [
   
       price: 599.99,
       rating: 4.0,
-      numReviews: 8,
+      numReviews: 8, 
     },
     {
       _id: "3",
