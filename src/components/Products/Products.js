@@ -1,7 +1,6 @@
 import React,{useState} from 'react'
 import { Grid, makeStyles } from '@material-ui/core'
 import Product from './Product/Product'
-import products from '../../data'
 
 const useStyles = makeStyles((theme) => ({
     toolbar: theme.mixins.toolbar,
@@ -14,8 +13,8 @@ const useStyles = makeStyles((theme) => ({
       flexGrow: 1,
     },
   }));
-
-export default function Products() {
+// Parameter of APi passed to fetch categories and products
+export default function Products({products}) {
     const classes=useStyles();
     return (
         <main className={classes.content}>

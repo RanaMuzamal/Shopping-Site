@@ -54,7 +54,7 @@ export default function Drawer() {
       
         <React.Fragment >
           {/* <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button> */}
-          <MuiDrawer open={drawerState.visibility} onClose={()=>{setDrawerState({visibility: false})}}>
+          <MuiDrawer open={drawerState.visibility} onClose={()=>{setDrawerState({visibility: true})}}>
             {list()}
           </MuiDrawer>
         </React.Fragment>
